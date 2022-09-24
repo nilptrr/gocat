@@ -11,6 +11,7 @@ Validation tool Bitcoin and other Altcoin addresses on Go.
 |:-------------:| ------ | ------- | ---------- | ---------------------------------------------------------------------------------------------         |
 | Bitcoin       | BTC    | +       | +          | P2PKH (Legacy Adresses), P2SH (Pay to Script Hash), P2WPKH (Native SegWit), P2TR (Taproot) address formats    |
 | Cosmos        | ATOM   | +       | -          |                                                                                                       |
+| Binance Coin  | BNB    | +       | +          |                                                                                                       |
 
 ## Installation
 ```

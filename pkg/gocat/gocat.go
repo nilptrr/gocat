@@ -9,6 +9,8 @@ func Validate(symbol string, address string) bool {
 	switch symbol {
 	case "btc":
 		return validators.DefaultValidator(address)
+	case "atom", "bnb":
+		return validators.Bech32Validator(address)
 	default:
 		return false
 	}

@@ -17,7 +17,7 @@ Validation tool Bitcoin and other Altcoin addresses on Go.
 
 ## Installation
 ```
-go get -u github.com/nilptrr/crypto-address-go@v0.1.2
+go get -u github.com/nilptrr/crypto-address-go@latest
 ```
 
 ## Usage

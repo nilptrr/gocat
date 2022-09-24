@@ -15,6 +15,10 @@ func Validate(symbol string, address string) bool {
 		return validators.AIONValidator(address)
 	case "miota":
 		return validators.MIOTAValidator(address)
+	//case "eos":
+	//	return validators.EOSValidator(address)
+	//case "iost":
+	//	return validators.IOSTValidator(address)
 	default:
 		return false
 	}
